@@ -1,0 +1,54 @@
+/*-----------------------------------------------------
+
+[TABLE OF CONTENTS]
+
+1. Imports
+2. Variables
+3. General Styles
+4. Header
+5. Footer
+6. Home
+7. Inner Pages
+10. Media Queries
+
+-------------------------------------------------------*/
+
+/*--------
+1. Imports
+----------*/
+/*Import fonts, plugins here*/
+/*@import url('http://example.com/example_style.css');*/
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700|Open+Sans');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css');
+
+/*--------
+2. Variables
+----------*/
+
+/*Typography*/
+/*$variable: value;*/
+$fontTitle: 'Raleway', sans-serif;
+$fontMain: 'Open Sans', sans-serif;
+$transition: all 0.3s ease;
+
+/*Colours*/
+/*$variable: value;*/
+
+
+/*--------
+3. General Styles
+----------*/
+@import 'globa/setup';
+
+
+/*--------
+Partials
+----------*/
+
+@import 'global/header';
+@import 'global/footer';
+@import 'pages/home';
+@import 'pages/innerPages';
+@import 'pages/blog';
+@import 'global/mediaQueries';

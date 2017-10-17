@@ -1,0 +1,62 @@
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 850px) {
+	/* Resources */
+	span#hs_cos_wrapper_Resources > div {
+		width: 47%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+
+	/* Blog */
+
+	.listingPageContent .blog-section,
+	.sidebar {
+		width: 100%;
+	}
+
+	.sidebar {
+		border-top: 5px solid rgba(0,0,0,0.08);
+	}
+
+	.post-group {
+		display: block;
+	}
+
+	.post-item {
+		width: initial;
+		margin: 6% auto;
+
+		.postImg {
+			height: 150px;
+		}
+	}
+
+	.full-blog-section > .container:before {
+		display: none;
+	}
+} /* End max-width: 767px */
+
+@media screen and (max-width: 530px) {
+
+	/* Resources */
+
+	span#hs_cos_wrapper_Resources > div {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	/* Error Pages */
+
+	.error {
+		h1 {
+			font-size: 100px;
+		}
+
+		h2 {
+			font-size: 22px;
+		}
+	}
+
+} /* End max-width: 530px */
